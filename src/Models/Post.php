@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Post extends Model
 {
+      protected $table = 'forum_flex_posts';
     use HasFactory;
     protected $fillable = [
         'body',
