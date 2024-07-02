@@ -8,6 +8,7 @@ use Appslanka\ForumFlex\Models\Thread;
 
 class Category extends Model
 {
+     protected $table = 'forum_flex_categories';
     use HasFactory;
     protected $fillable = [
        'name',

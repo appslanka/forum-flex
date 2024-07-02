@@ -8,8 +8,8 @@ return new class extends Migration
 {
     public function up()
     {
-        $prefix = config('database.table_prefix', '');
-        
+      
+            $prefix = config(' forum-flex.table_prefix', '');
         // todo Need to ensure this (should not affect exiting database)
         // Schema::create('users', function (Blueprint $table) {
         //     $table->id();
