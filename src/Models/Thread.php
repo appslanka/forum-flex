@@ -9,6 +9,7 @@ use Appslanka\ForumFlex\Models\User;
 use Appslanka\ForumFlex\Models\Category;
 class Thread extends Model
 {
+      protected $table = 'forum_flex_threads';
     use HasFactory;
     protected $fillable = [
         'title',
